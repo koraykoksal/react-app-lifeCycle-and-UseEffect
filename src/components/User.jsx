@@ -22,7 +22,7 @@ const User = () => {
     getUser()
 
     //! ComponentWillUnMount
-    return () => {
+    return () => { 
       clearInterval(timer)
     }
   }, [])
